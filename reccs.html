@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>KoTG - What's On The Menu?</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <head>
+    <title>KoTG - Home</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="backgrounds.css">
+  </head>
+  <!--Form template from W3Schools, with additional customisations-->
+  <style>form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 3px solid #CCC;
+    border-radius: 5em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }</style>
+</head>
+
+<body>
+  
+    <div id="container">
+
+      <div class="d-flex justify-content-center"><h1>King Of The Grill - A Recipe Website</h1></div>
+  
+    <div class="row ps-5">
+      <div class="col-sm bg-light">
+        <a href="about.html">About</a>
+      </div>
+      <div class="col-sm bg-light">
+        <a href="recipes.html">Recipes</a>
+      </div>
+      <div class="col-sm bg-light">
+        <a href="home.html"> Home</a>
+      </div>
+  <div class="col-sm bg-light">
+    <a href="contactme.html">Contact</a>
+  </div>		
+    </div>
+  </div>
+  <br>
+  <div class="d-flex justify-content-center">
+  <h3><i>Welcome to my Website!</i></h3></div>
+  <p>I've had a love of Cooking for years, 
+  from working in restaurants to helping out with communal meals for family and friends.<br>
+  This website serves as an aggregator for recipes I'm planning to attempt. Additionally, users can recommend recipes over on 'Whats On The Menu?'<br>
+  If you have any questions, please don't hesistate to get in touch.<br>
+  <i>Bon Appetit!</i> - J</p> 
+
+</div>
+     
+      </div>
+    <div id="pagetitle"> 
+
+
+    </div>
+  
+    
+  
+
+    <div class="d-flex justify-content-center">
+      <h1 class="display-5">"What's On The Menu?" - Recommend some Recipes!</h1>
+    </div>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+       <li>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="user_name">
+       </li>
+       <li>
+         <label for="mail">E-mail:</label>
+         <input type="email" id="mail" name="user_email">
+       </li>
+       <li>
+         <label for="msg">Message:</label>
+         <textarea id="msg" name="user_message"></textarea>
+       </li>
+       <li class="button">
+           <button type="submit">Send Your Message!</button>
+       </li>
+      </ul>
+     </form>
+
+</div>
+
+</body>
+</html>

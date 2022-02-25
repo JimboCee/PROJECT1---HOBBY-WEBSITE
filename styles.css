@@ -1,0 +1,67 @@
+body {
+    background-color: bisque;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1
+{
+    color: orange;
+    text-align: center;
+    border-style: groove;
+    
+}
+
+h3
+{
+    text-align: center;
+    
+  
+}
+
+p 
+{
+    background-color: bisque;
+    text-align: center;
+}
+
+
+
+#navigation
+{
+    height: 250px;
+    width: 215px;
+    float: left;
+    background-color: gray;
+}
+ #body
+    {
+    text-align: center; 
+    float: right; 
+}
+
+#titles
+{
+    text-align: center;
+}
+
+#text1
+{
+    text-align: center ;
+    
+    border-radius: 10px;
+    
+}
+
+#body1
+{
+    text-align: center;
+}
+#footer
+{
+    float: right; 
+} 
+img {
+    border-radius: 60%;
+    align-items: center;
+}
